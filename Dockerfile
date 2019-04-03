@@ -1,3 +1,2 @@
-FROM node:8.9.4-alpine
-RUN apk add --no-cache git libpng libpng-dev
+FROM node:8.9.4
 RUN npm install -g npm@latest
